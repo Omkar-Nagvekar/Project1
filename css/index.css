@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+    color: #000;
+    background: #fff;
+}
+
+.topnav ul {
+    background:  rgba(167, 39, 146, 0.329);
+    overflow: hidden;
+    list-style-type: none;
+}
+
+.text {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.go {
+    float: right;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.go:hover {
+    background: #3500d3;
+}
+
+.topnav a.active {
+    background-color: green;
+    color: black;
+}
+
+
+body {
+    /*background: #1D4350;
+background: -webkit-linear-gradient(to left, #A43931, #1D4350);
+background: linear-gradient(to left, #A43931, #1D4350);*/
+/*
+background: #4ECDC4;
+background: -webkit-linear-gradient(to left, #556270, #4ECDC4);
+background: linear-gradient(to left, #556270, #4ECDC4);
+*/
+background-image: url("../img/lap.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+width: 100%;
+height: 100vh;
+
+}
+
+
+.center {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.center .title {
+    color: rgb(47, 27, 27);
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Merriweather', serif;
+    -webkit-text-stroke: 3px white;
+}
+
+.center .sub_title {
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+    
+    font-family: 'Merriweather', serif;
+    -webkit-text-stroke: 2px white;
+}
+
+.center .btns {
+    margin-top: 20px;
+}
+
+.center .btns button {
+    height: 65px;
+    width: 170px;
+    border-radius: 40px;
+    margin: 0 10px;
+    border: 2px white;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: black;
+    transition: all 0.3s ease;
+   
+}
+
+.center .btns button:first-child {
+    background:rgb(53, 53, 231);
+    color: white;
+    border: 3px solid black;
+    font-family: 'Merriweather', serif;
+
+}
+
+.btns button:first-child:hover {
+    background: transparent;
+    color: blue;
+}
+
+.center .btns button {
+    background-color: rgb(53, 53, 231);
+    color:white;
+    border: 3px solid black;
+    font-family: 'Merriweather', serif;
+}
+
+.btns button:hover {
+    background: transparent;
+    color: blue;
+}
